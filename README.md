@@ -15,6 +15,7 @@ The Space Leiden - Binnenklimaat setup
 - https://averagemaker.com/2018/03/wemos-d1-mini-setup.html
 
 ## Sensoren
+- Beide sensoren werken op 5V maar kunnen ook op 3.3V werken, de code in deze repo is gebaseerd opm 3.3V
 - DHT22 -> Food for Thought -> https://chewett.co.uk/blog/1476/using-the-dht22-temperature-sensor-with-a-wemos-d1-mini-esp8266/
 - MQ135 -> analog readout -> http://davidegironi.blogspot.com/2014/01/cheap-co2-meter-using-mq135-sensor-with.html
 
