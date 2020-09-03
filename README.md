@@ -19,12 +19,12 @@ The Space Leiden - Binnenklimaat setup
 - MQ135 -> analog readout -> http://davidegironi.blogspot.com/2014/01/cheap-co2-meter-using-mq135-sensor-with.html
 
 ## Workflow
--> Zorg dat je de DHT22 werkzaam krijgt en data laat versturen via Serial
--> Zorg dat je de MQ135 werkzaam krijgt en data laat versturen via Serial
-  -> Kalibreer je sensor (voor zover het kan)
--> Laat beide sensoren data versturen via Serial
--> Connect Met Wifi
--> Push je data naar Google sheets!
+* Zorg dat je de DHT22 werkzaam krijgt en data laat versturen via Serial
+* Zorg dat je de MQ135 werkzaam krijgt en data laat versturen via Serial
+  * Kalibreer je sensor (voor zover het kan)
+* Laat beide sensoren data versturen via Serial
+* Connect Met Wifi
+* Push je data naar Google sheets!
   1. Create a new sheet with the following headers: Time	Temperature	Humidity	CO2	
   2. Use https://www.hackster.io/thatiotguy/sensor-data-upload-to-google-sheets-through-nodemcu-632358
   3. Use the following code for the script
